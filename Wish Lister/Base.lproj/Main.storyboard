@@ -112,6 +112,9 @@
                             <constraint firstItem="z4d-TI-3qN" firstAttribute="top" secondItem="qII-Oh-Ut3" secondAttribute="bottom" constant="20" id="ukf-ai-KyA"/>
                             <constraint firstItem="z4d-TI-3qN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xUz-ob-xu0"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" title="WishLister" id="IIz-nz-L14">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="2mj-7S-YWJ">
