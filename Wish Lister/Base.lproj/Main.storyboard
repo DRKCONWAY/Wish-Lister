@@ -34,7 +34,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="aNP-0T-ia0">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="aNP-0T-ia0" customClass="ItemCell" customModule="Wish_Lister" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="288" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aNP-0T-ia0" id="Pps-qM-KVt">
@@ -88,6 +88,9 @@
                                                         <constraint firstAttribute="trailing" secondItem="otS-yz-I6P" secondAttribute="trailing" constant="8" id="ona-ii-Nsm"/>
                                                         <constraint firstItem="otS-yz-I6P" firstAttribute="leading" secondItem="Wwq-EC-QVw" secondAttribute="trailing" constant="8" id="vyl-dn-4DW"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -98,6 +101,12 @@
                                                 <constraint firstItem="fi7-HM-gPi" firstAttribute="trailing" secondItem="Pps-qM-KVt" secondAttribute="trailingMargin" id="s9i-tp-FTm"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="Details" destination="Ivm-bW-b0U" id="0Il-5B-Q4S"/>
+                                            <outlet property="Price" destination="otS-yz-I6P" id="n21-y9-3yS"/>
+                                            <outlet property="Thumbnail" destination="Wwq-EC-QVw" id="Kkf-sf-u8U"/>
+                                            <outlet property="Title" destination="YYb-gx-TY6" id="H0i-ku-YkH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -121,6 +130,10 @@
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segmentedControl" destination="qII-Oh-Ut3" id="v2y-3u-jke"/>
+                        <outlet property="tableView" destination="z4d-TI-3qN" id="mMF-kv-aUo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

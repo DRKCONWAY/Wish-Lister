@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		035747E31D87B49E00C1E7D7 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035747E21D87B49E00C1E7D7 /* MaterialView.swift */; };
+		037924441D88A37200EA924C /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037924431D88A37200EA924C /* ItemCell.swift */; };
 		03A11EB71D87913400FC716F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A11EB61D87913400FC716F /* AppDelegate.swift */; };
 		03A11EB91D87913400FC716F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A11EB81D87913400FC716F /* MainViewController.swift */; };
 		03A11EBC1D87913400FC716F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A11EBA1D87913400FC716F /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		035747E21D87B49E00C1E7D7 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		037924431D88A37200EA924C /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		03A11EB31D87913400FC716F /* Wish Lister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wish Lister.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A11EB61D87913400FC716F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A11EB81D87913400FC716F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				035747E21D87B49E00C1E7D7 /* MaterialView.swift */,
+				037924431D88A37200EA924C /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037924441D88A37200EA924C /* ItemCell.swift in Sources */,
 				03A11ED51D87985A00FC716F /* ItemType+CoreDataClass.swift in Sources */,
 				03A11EBF1D87913400FC716F /* Wish_Lister.xcdatamodeld in Sources */,
 				03A11ED41D87985A00FC716F /* Image+CoreDataProperties.swift in Sources */,
