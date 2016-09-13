@@ -43,7 +43,7 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fi7-HM-gPi">
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wwq-EC-QVw">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s65amg-3" translatesAutoresizingMaskIntoConstraints="NO" id="Wwq-EC-QVw">
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="100" id="h2f-zx-wsF"/>
                                                                 <constraint firstAttribute="height" constant="100" id="iKJ-2I-ENo"/>
@@ -67,7 +67,7 @@
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someday my dreams will come true and I will own this car. Just you wait and see!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ivm-bW-b0U">
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="63" id="CMn-cI-62U"/>
+                                                                <constraint firstAttribute="height" constant="80" id="CMn-cI-62U"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -80,7 +80,7 @@
                                                         <constraint firstAttribute="trailing" secondItem="YYb-gx-TY6" secondAttribute="trailing" constant="8" id="ObY-fI-wKW"/>
                                                         <constraint firstItem="YYb-gx-TY6" firstAttribute="top" secondItem="fi7-HM-gPi" secondAttribute="top" constant="8" id="Pdx-yY-9I0"/>
                                                         <constraint firstItem="otS-yz-I6P" firstAttribute="top" secondItem="YYb-gx-TY6" secondAttribute="bottom" constant="4" id="U39-Lw-e5t"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Ivm-bW-b0U" secondAttribute="bottom" constant="8" id="Zwp-5U-AtF"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Ivm-bW-b0U" secondAttribute="bottom" constant="-0.5" id="Zwp-5U-AtF"/>
                                                         <constraint firstAttribute="trailing" secondItem="Ivm-bW-b0U" secondAttribute="trailing" constant="8" id="chM-fE-yYZ"/>
                                                         <constraint firstItem="Wwq-EC-QVw" firstAttribute="centerY" secondItem="fi7-HM-gPi" secondAttribute="centerY" id="dPf-33-Ld6"/>
                                                         <constraint firstItem="Wwq-EC-QVw" firstAttribute="leading" secondItem="fi7-HM-gPi" secondAttribute="leading" constant="8" id="m6P-CO-9X0"/>
@@ -128,7 +128,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lNG-ZJ-8ZQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MV8-nE-yTD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MV8-nE-yTD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -146,4 +146,7 @@
             <point key="canvasLocation" x="153.75" y="801.76056338028172"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="s65amg-3" width="1600" height="1056"/>
+    </resources>
 </document>
